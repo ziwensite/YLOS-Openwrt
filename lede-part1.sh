@@ -9,6 +9,8 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
+sed -i "s/hostname='OpenWrt'/hostname='YLOS'/g" ./package/base-files/files/bin/config_generate
+
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
