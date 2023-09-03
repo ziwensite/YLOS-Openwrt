@@ -18,3 +18,4 @@ sed -i "s/hostname='OpenWrt'/hostname='YLOS'/g" ./package/base-files/files/bin/c
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git clone https://github.com/kiddin9/openwrt-packages.git package/kiddin9
